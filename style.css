@@ -1,0 +1,69 @@
+:root {
+    color: hsl(218, 22%, 67%);
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.intro {
+    margin: 10px auto;
+    padding: 20px;
+    
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+strong {
+    font-size: x-large;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    padding: 20px;
+}
+
+.why-us {
+    background-color: hsla(179, 62%, 43%, 0.753);
+    color: hsl(204, 43%, 93%);
+}
+
+button {
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    width: 220px;
+    height: 29px;
+    border-color: hsl(71, 73%, 54%);
+    border-radius: 5%;
+    border-style: solid;
+}
+
+b {
+    color: hsla(203, 44%, 93%, 0.562);
+    top: -5px;
+    position: relative;
+    padding: 10px;
+} 
+
